@@ -1,0 +1,12 @@
+Options -Indexes +ExecCGI
+
+# 拡張子.htmlでのphp実行を設定
+AddType application/x-httpd-php .php .html
+AddType application/x-httpd-cgi .cgi
+
+AddType image/svg+xml svg
+DirectoryIndex index.cgi index.html index.hdml
+
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html?$ / [NC,R,L]
