@@ -12,9 +12,9 @@
 <meta property="og:url" content="★★★">
 <meta property="og:image" content="★★★">
 <meta name=”twitter:image” content="★★★">
-<meta property="og:site_name" content="★★★">
+<meta property="og:site_name" content="Lighting Review">
 <meta property="og:title" content="Lightning Review">
-<title>★★★</title>
+<title>Lighting Review</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 <link href="https://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet" media="all">
 
@@ -26,15 +26,31 @@
 <link href="https://designpro24h.github.io/TemplateLightingReview/assets/css/template.css" rel="stylesheet" media="all">
 <link href="https://designpro24h.github.io/TemplateLightingReview/assets/css/slick.css" rel="stylesheet" media="all">
 <!--link href="https://designpro24h.github.io/TemplateLightingReview/assets/images/apple-touch-icon.png" rel="apple-touch-icon"! -->
-
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'bfi5zmk',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<style>.tk-kozuka-gothic-pr6n{font-family:"kozuka-gothic-pr6n",sans-serif;}.tk-fot-tsukuardgothic-std{font-family:"fot-tsukuardgothic-std",sans-serif;}
+</style>
 </head>
 <body>
 <div id="l-document">
-
 <header class="header js-menu-parent" id="header" role="banner">
 	<div class="header_wrapper">
-	<h1 id="logo" class="logo_site"><a href="/"><img src="https://designpro24h.github.io/TemplateLightingReview/common/images/sitelogo.png" alt="Lightning review"></a></h1>
-	
+		<?php
+			$html = '<h1 id="logo" class="logo_site"><a href="/"><img src="https://designpro24h.github.io/TemplateLightingReviewhttps://designpro24h.github.io/TemplateLightingReview/common/images/sitelogo.png" alt="Lightning review"></a></h1>';
+			if($current == 'home'){
+				echo('<h1 id="sitelogo">' . $html . '</h1>');
+			}else{
+				echo('<p id="sitelogo">' . $html . '</p>');
+			}
+		?>	
 		<p class="header__menu js-menu-trigger"><a href="#nav-global" class="js-menu noScroll"><span></span><span></span><span></span></a></p>		
 	</div>
 
@@ -114,17 +130,16 @@
 <!-- //top header -->	
 </header>
 <div class="clear"></div>
-
 <div id="main-banner">
 	<div class="wrp-container">
 			<div class="main-banner-wrap">
 				<div class="box-mainimg__inner">
 					<div class="caption">
-						<h2 class="caption-title">
+						<p class="caption-title">
 							レビュー支援ツールで、
 							<br>誰でも毎日、直感的な設計レビューを。
 							
-						</h2>
+						</p>
 						<p class="caption-desc">
 							Lightning Reviewは、デンソークリエイトの開発現場から生まれました。開発現場<br>における設計レビューの悩みや問題に向き合い、製品に活かしてきました。<br>
 							毎日のように実施しているレビュー自体の品質や生産性も良くしたい、という思い<br>
@@ -151,13 +166,13 @@
 
 </div><!-- main-banner -->
 <div class="clear"></div>
-<div class="session-popular">
+<section class="session-popular">
 	<div class="wrp-container">
 		<ul class="lst-news-index wrp-grid">
 			<li class="grid-6">
 				<div class="box-news-index visible-pc">
 					<div class="box-news-index-content">
-						<div class="title"><h3>年に<em>４</em>回の大型アップデート実施 <span class="btn btn-sm white txt-en"><span class="txt_over">more</span></span></h3></div>
+						<p class="title">年に<em>４</em>回の大型アップデート実施<a href="#" class="btn btn-sm white txt-en"><span class="txt_over">more</span></a></p>
 						<div class="list-desc">
 							<ul class="lst_news">
 								<li><a href="#"><span class="list_date_news">2018/03/07</span>Lightning Review 1.5.3 をリリースしました。</a></li>
@@ -172,7 +187,7 @@
 			<li class="grid-6">
 					<div class="box-news-index">
 						<div class="box-news-index-content">
-								<div class="title"><h3>製品紹介セミナー <span class="btn btn-sm white txt-en"><span class="txt_over">more</span></span></h3></div>
+								<p class="title">製品紹介セミナー <a href="#" class="btn btn-sm white txt-en"><span class="txt_over">more</span></a></p>
 								<div class="content-desc">
 											<p class="content-des-title">レビュー支援ツール<br class="is-visibleSp">「Lightning Review」</p>
 											<p class="p-small">設計レビューの問題をどのように解決するかデモを交えてご紹介します</p>
@@ -191,11 +206,11 @@
 		
 	</div>
 
-</div><!-- session-popular -->
+</section><!-- session-popular -->
 <div class="clear"></div>
 <div id="pick-up">
 	<div class="wrp-container">
-		<label>Pick up <a href="#"><span class="btn-green">一覧へ<span></a></label>	
+		<label class=""><span class="txt-en">Pick up </span><a href="#" class="btn-pickup"><span class="btn-green">一覧へ<span></a></label>	
 		<div class="owl-slider">
 		<div id="slides" class="slider lazy slick-slider" role="toolbar">
 			<div class="grid-info it ems ">
@@ -206,7 +221,7 @@
 					</div>
 				  <h4>第27回ソフトウェア&アプリ開発展(SODEC)出展のご案内</h4>
 				  <p class="article-desc">2018年5月9日(水)～11日(金)に東京ビッグサイトで開催！｢Lightning Review｣｢TimeTracker NX｣を展示。</p>
-				   <a class="btn-more-gray txt-en">more</a>
+				 <a href="#" class="btn-more-gray txt-en"><span class="txt_over">more</span></a>
 				</article>
 			</div><!-- grid-info -->
 			<div class="grid-info items">
@@ -217,7 +232,7 @@
 					</div>
 				  <h4>セミナー募集中！</h4>
 				  <p class="article-desc">TimeTracker NXは、ソフトウェア開発、ハード設計、営業、Web制作などア開発</p>
-				   <a class="btn-more-gray txt-en">more</a>
+				   <a href="#" class="btn-more-gray txt-en"><span class="txt_over">more</span></a>
 				</article>
 			</div><!-- grid-info -->
 			<div class="grid-info items">
@@ -228,7 +243,7 @@
 					</div--->
 				  <h4>Version1.1の特長</h4>
 				  <p class="article-desc">2018年5月9日(水)～11日(金)に東京ビッグサイトで開催！｢Lightning Review｣｢TimeTracker NX｣を展示。</p>
-				   <a class="btn-more-gray txt-en">more</a>
+				   <a href="#" class="btn-more-gray txt-en"><span class="txt_over">more</span></a>
 				</article>
 			</div><!-- grid-info -->
 			<div class="grid-info items">
@@ -239,7 +254,7 @@
 					</div-->
 				  <h4>コンセプト</h4>
 				  <p class="article-desc">2018年5月9日(水)～11日(金)に東京ビッグサイトで開催！｢Lightning Review｣｢TimeTracker NX｣を展示。</p>
-				  <a class="btn-more-gray">more</a>
+				  <a href="#" class="btn-more-gray txt-en"><span class="txt_over">more</span></a>
 				</article>
 			</div><!-- grid-info -->
 			<div class="grid-info items">
@@ -250,7 +265,7 @@
 					</div>
 				  <h4>第27回ソフトウェア&アプリ開発展(SODEC)出展のご案内</h4>
 				  <p class="article-desc">2018年5月9日(水)～11日(金)に東京ビッグサイトで開催！｢Lightning Review｣｢TimeTracker NX｣を展示。</p>
-				   <a class="btn-more-gray txt-en">more</a>
+				   <a href="#" class="btn-more-gray txt-en"><span class="txt_over">more</span></a>
 				</article>
 			</div><!-- grid-info -->
 			
@@ -423,7 +438,7 @@
 </section>
 
 <div class="clear"></div>
-<div id="module-content">
+<section id="module-content">
 	<div class="wrapper-area">
 		<div class="module-content-wrap">
 		<label class="module-content-tilte">
@@ -433,16 +448,16 @@
 		</label>
 		<article>
 			<p>ソフトウェア開発はますます高機能化が進み、品質への要求はより高度なものになりました。
-品質を確保するには、成果物に対する十分なレビューの実施が必要です。				
+				<br>品質を確保するには、成果物に対する十分なレビューの実施が必要です。
 			</p>
-			<p>Lightning Reviewは、ソフトウェア開発やハードウェア設計など、あらゆる知識労働の現場で日常的に行われている「作業成果物のレビュー」を支援するツールです。直感的な操作でスピーディーなレビューを実現するとともに、レビューを見える化することで、成果物の品質向上につなげることができます。</p>
+			<p class="txt_bottom_2">Lightning Reviewは、ソフトウェア開発やハードウェア設計など、あらゆる知識労働の現場で日常的に行われている「作業成果物のレビュー」を支援するツールです。直感的な操作でスピーディーなレビューを実現するとともに、レビューを見える化することで、成果物の品質向上につなげることができます。</p>
 
 		</article>
 	</div>
 		
 	</div>
 	
-</div>
+</section><!-- module-content -->
 <div class="clear"></div>
 <!-- Module Price-->
 <div id="module-price">
@@ -515,17 +530,20 @@
 	<div id="footer-bottom">
 		<div class="wrapper-area">
 			<nav class="nav_contentinfo">
-						<ul class="nav_footer_top">
-							<li><a href="★★★" target="_blank">トップページ</a></li>
-							<li><a href="★★★">ニュース</a></li>
-							<li><a href="★★★">コンセプト</a></li>
-							<li><a href="★★★">特長</a></li>
-							<li><a href="★★★">導入効果</a></li>
-							<li><a href="★★★">ご購入について</a></li>
-							<li><a href="★★★">お問い合わせ</a></li>
-							<li><a href="★★★">サポート</a></li>
-							<li><a href="★★★">製品紹介セミナー</a></li>
-							<li><a href="★★★">ログイン</a></li>
+						<ul class="nav_footer_top nav">
+							
+							<li><a href="/">トップページ</a></li>
+							<li><a href="#">ニュース</a></li>
+							<li><a href="#">コンセプト</a></li>
+							<li><a href="#">特長</a></li>
+							<li><a href="#">導入効果</a></li>
+							<li><a href="#">ご購入について</a></li>
+							<li><a href="#">動作環境</a></li>
+							<li><a href="#">お問い合わせ</a></li>
+							<li><a href="#">サポート</a></li>
+							<li><a href="#">製品紹介セミナー</a></li>
+							<li><a href="#">ログイン</a></li>
+
 							
 						</ul>
 					</nav>
@@ -538,11 +556,16 @@
 						</div>
 					</div>		
 					<div class="border-line-center">
-						<ul class="nav_footer_bt">
-								<li class="column"><a href="★★★" target="_blank">ーポレートサイト</a></li>
-								<li class="column"><a href="★★★">その他の製品・サービス</a></li>
-								<li class="column"><a href="★★★">このサイトのご利用について</a></li>
-								<li class="column"><a href="★★★">個人情報保護</a></li>
+						<ul class="nav_footer_bt nav">
+								
+									<li class="column"><a href="★★★">コーポレートサイト</a></li>
+									<li class="column"><a href="★★★">その他の製品・サービス </a></li>
+									<li class="column"><a href="★★★">このサイトのご利用について</a></li>
+									<li class="column"><a href="★★★">個人情報保護</a></li>
+								
+
+
+								
 						</ul>	
 					</div>
 					<div class="border-line-right">
@@ -581,7 +604,9 @@
 </div><!-- /#document -->
 
 
+<!--script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script-->
 
+<!--script src="https://designpro24h.github.io/TemplateLightingReview/assets/bootstrap/js/bootstrap.min.js"></script-->
 <script src="https://designpro24h.github.io/TemplateLightingReview/assets/js/jquery.min.js"></script>
 <script src="https://designpro24h.github.io/TemplateLightingReview/assets/js/slick.min.js"></script>
 <script src="https://designpro24h.github.io/TemplateLightingReview/assets/js/common.js"></script>

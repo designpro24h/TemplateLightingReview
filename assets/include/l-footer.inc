@@ -46,17 +46,20 @@
 	<div id="footer-bottom">
 		<div class="wrapper-area">
 			<nav class="nav_contentinfo">
-						<ul class="nav_footer_top">
-							<li><a href="★★★" target="_blank">トップページ</a></li>
-							<li><a href="★★★">ニュース</a></li>
-							<li><a href="★★★">コンセプト</a></li>
-							<li><a href="★★★">特長</a></li>
-							<li><a href="★★★">導入効果</a></li>
-							<li><a href="★★★">ご購入について</a></li>
-							<li><a href="★★★">お問い合わせ</a></li>
-							<li><a href="★★★">サポート</a></li>
-							<li><a href="★★★">製品紹介セミナー</a></li>
-							<li><a href="★★★">ログイン</a></li>
+						<ul class="nav_footer_top nav">
+							
+							<li><a href="/">トップページ</a></li>
+							<li><a href="#">ニュース</a></li>
+							<li><a href="#">コンセプト</a></li>
+							<li><a href="#">特長</a></li>
+							<li><a href="#">導入効果</a></li>
+							<li><a href="#">ご購入について</a></li>
+							<li><a href="#">動作環境</a></li>
+							<li><a href="#">お問い合わせ</a></li>
+							<li><a href="#">サポート</a></li>
+							<li><a href="#">製品紹介セミナー</a></li>
+							<li><a href="#">ログイン</a></li>
+
 							
 						</ul>
 					</nav>
@@ -69,11 +72,16 @@
 						</div>
 					</div>		
 					<div class="border-line-center">
-						<ul class="nav_footer_bt">
-								<li class="column"><a href="★★★" target="_blank">ーポレートサイト</a></li>
-								<li class="column"><a href="★★★">その他の製品・サービス</a></li>
-								<li class="column"><a href="★★★">このサイトのご利用について</a></li>
-								<li class="column"><a href="★★★">個人情報保護</a></li>
+						<ul class="nav_footer_bt nav">
+								
+									<li class="column"><a href="★★★">コーポレートサイト</a></li>
+									<li class="column"><a href="★★★">その他の製品・サービス </a></li>
+									<li class="column"><a href="★★★">このサイトのご利用について</a></li>
+									<li class="column"><a href="★★★">個人情報保護</a></li>
+								
+
+
+								
 						</ul>	
 					</div>
 					<div class="border-line-right">
