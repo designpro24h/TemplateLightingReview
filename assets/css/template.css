@@ -725,7 +725,7 @@ span.btn.btn-sm:hover{
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: #456b93;
-	cursor:none;
+	cursor: inherit;
 }
 
 a .btn-green{
@@ -1319,6 +1319,7 @@ label.module-price-title {
     text-align: center;
     padding-top: 102px;
     padding-bottom: 70px;
+	cursor: inherit;
 }
 .module-price-title h3{
     font-size: 32px;
