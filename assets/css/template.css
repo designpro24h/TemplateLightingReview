@@ -2763,6 +2763,16 @@ a.btn-social i {
         margin: 0 30px;
         
     }
+	.news-wp-5 .article-news-content {
+		width: 100%;
+	}
+	.news-wp-3 .article-news-thumbs {
+		
+		padding-left: 0px;
+	}
+	.news-wp-5 .article-news-thumbs {
+		padding-left: 0px;
+	}
 }
 @media (max-width: 600px){
       .grid-info {
