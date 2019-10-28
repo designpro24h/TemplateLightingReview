@@ -122,7 +122,7 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url('/assets/images/ajax-loader.gif') center center no-repeat;
+    background: #fff url('https://designpro24h.github.io/TemplateLightingReview/assets/images/ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
@@ -132,8 +132,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url('/assets/fonts/slick.eot');
-    src: url('/assets/fonts/slick.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('/assets/fonts/slick.svg#slick') format('svg');
+    src: url('https://designpro24h.github.io/TemplateLightingReview/assets/fonts/slick.eot');
+    src: url('https://designpro24h.github.io/TemplateLightingReview/assets/fonts/slick.eot?#iefix') format('embedded-opentype'), url('https://designpro24h.github.io/TemplateLightingReview/assets/fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('https://designpro24h.github.io/TemplateLightingReview/assets/fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
 .slick-prev,
