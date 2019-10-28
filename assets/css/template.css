@@ -521,7 +521,7 @@ nav ul > li {
     bottom: -20px;
     left: 28px;
     right: 0;
-    background: url(https://designpro24h.github.io/TemplateLightingReview/assets/images/cmn-pct-screen-shadow01.png) left bottom/843px auto no-repeat;
+    background: url(../images/cmn-pct-screen-shadow01.png) left bottom/843px auto no-repeat;
     width: 843px;
     height: 136px;
 }
@@ -1998,7 +1998,7 @@ a.btn-social i {
        padding: 10px 0;
     }
     #main-banner{
-        background: url(/assets/images/index-bg-main01-pc.png) no-repeat left bottom;
+        background: url(../images/index-bg-main01-pc.png) no-repeat left bottom;
         background-size: cover;
         border-bottom: 1px solid #e0ebf1;
     }
@@ -2008,7 +2008,7 @@ a.btn-social i {
 }
 @media screen and (max-width: 767px){
     .box-mainimg {
-        background: #e6ebee url(/assets/images/index-bg-main01-sp.jpg) no-repeat center bottom;
+        background: #e6ebee url(../images/index-bg-main01-sp.jpg) no-repeat center bottom;
         background-size: 100% auto;
         border-bottom: 0;
     } 
@@ -2095,7 +2095,7 @@ a.btn-social i {
 
 @media (max-width: 1023px){
     #main-banner{
-        background: url(/assets/images/index-bg-main01-pc.png) no-repeat left bottom;
+        background: url(../images/index-bg-main01-pc.png) no-repeat left bottom;
         background-size: cover;
         border-bottom: 1px solid #e0ebf1;
     }
@@ -2717,7 +2717,7 @@ a.btn-social i {
         
     }
     #main-banner{
-        background: #e6ebee url(/assets/images/index-bg-main01-sp.jpg) no-repeat center bottom;
+        background: #e6ebee url(../images/index-bg-main01-sp.jpg) no-repeat center bottom;
         background-size: 100% auto;
         border-bottom: 0;
     }
@@ -2763,8 +2763,14 @@ a.btn-social i {
         margin: 0 30px;
         
     }
+	.caption{
+		padding: 15px 0 205px;
+	}
 	.news-wp-5 .article-news-content {
 		width: 100%;
+	}
+	.news-wp-4 .article-news-thumbs {
+		padding: 0px;
 	}
 	.news-wp-3 .article-news-thumbs {
 		
