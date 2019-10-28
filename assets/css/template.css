@@ -1090,7 +1090,7 @@ margin: 0 auto;
 .news-wp-5 .article-news-content {
     width: 530px;
 }
-.news-wp-5.article-news-wp:before {
+.news-wp-5 .article-news-wp:before {
     
     height: 128px;
     
