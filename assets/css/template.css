@@ -1095,7 +1095,7 @@ margin: 0 auto;
     height: 128px;
     
 }
-.news-wp-5 .article-news-wp:before {
+.article-news-wp.news-wp-5:before {
    width: 46%;
 }
 .news-wp-5:after {
