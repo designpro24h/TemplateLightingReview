@@ -2007,11 +2007,13 @@ a.btn-social i {
 
 }
 @media screen and (max-width: 767px){
-    .box-mainimg {
-        background: #e6ebee url(../images/index-bg-main01-sp.jpg) no-repeat center bottom;
-        background-size: 100% auto;
-        border-bottom: 0;
-    } 
+    
+	#main-banner	
+	{
+		background: #e6ebee url(../images/index-bg-main01-sp.jpg) no-repeat center bottom;
+		background-size: 100% auto;
+		border-bottom: 0;
+	}
     .review-left h4,
     .nav-info li{
         margin-left: 15px;
