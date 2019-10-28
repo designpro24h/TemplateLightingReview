@@ -89,7 +89,7 @@ textarea{
     height: 78px;
     resize: none;
 }
-button,label{
+button{
     background-color: transparent;
     cursor: pointer;
 }
