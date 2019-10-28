@@ -725,6 +725,7 @@ span.btn.btn-sm:hover{
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: #456b93;
+	cursor:none;
 }
 
 a .btn-green{
